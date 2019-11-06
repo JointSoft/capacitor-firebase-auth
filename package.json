@@ -7,13 +7,13 @@
   "scripts": {
     "build": "npm run clean && tsc",
     "clean": "rimraf ./dist",
-    "watch": "tsc --watch",
-    "prepublishOnly": "npm run build"
+    "watch": "tsc --watch"
   },
   "author": "Bernardo Baumblatt",
   "license": "MIT",
   "dependencies": {
     "@capacitor/core": "latest",
+    "firebase": "^6.6.1",
     "rxjs": "^6.5.3"
   },
   "devDependencies": {
@@ -46,10 +46,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/baumblatt/capacitor-firebase-auth.git"
+    "url": "https://github.com/jointsoft/capacitor-firebase-auth.git"
   },
   "bugs": {
-    "url": "https://github.com/baumblatt/capacitor-firebase-auth.git/issues"
-  },
-  "_where": "/Users/baumblatt/wks/cap-fire-playground"
+    "url": "https://github.com/jointsoft/capacitor-firebase-auth.git/issues"
+  }
 }

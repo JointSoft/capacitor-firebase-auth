@@ -1,8 +1,6 @@
 import { Plugins } from '@capacitor/core';
-// import * as firebase from 'firebase/app';
 import firebase from '@firebase/app';
 import 'firebase/auth';
-
 import { Observable, throwError } from 'rxjs';
 import {
 	CapacitorFirebaseAuthPlugin,
